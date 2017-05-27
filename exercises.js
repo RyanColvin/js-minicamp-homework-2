@@ -3,10 +3,9 @@
 function getBiggest(x, y) {
   //x and y are integers.  Return the larger integer
   //if they are the same return either one
-    
-    
+    var a = Math.max(x, y);
+    return a;
 }
-
 function greeting(language) {
   //return a greeting for three different languages:
   //language: 'German' -> 'Guten Tag!'
